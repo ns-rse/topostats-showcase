@@ -67,6 +67,18 @@ quarto add --no-prompt davidwilby/openlinksinnewpage
 quarto add --no-prompt shafayetShafee/reveal-header
 ```
 
+### Restore R environment
+
+The template uses [`renv`](https://rstudio.github.io/renv/articles/renv.html) to control what packages are required 
+and these are stored in the `renv.lock` file. To restore a local/virtualR environment in the cloned directory you will
+need [R](https://www.r-project.org) and the [`renv`](https://rstudio.github.io/renv/articles/renv.html) package 
+installed globally on your system. You can then restore the environment locally from R with the following.
+
+```r
+> renv::install()
+```
+**NB** This is, generally, required before you can proceed with publishing your slides.
+
 ### Publish Locally
 
 You will need to run `quarto publish gh-pages` once locally before deploying this template. This creates a new branch
