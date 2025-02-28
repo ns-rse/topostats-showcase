@@ -47,7 +47,7 @@ filters:
   - MSc Genetic Epidemiology
 - Background
   - ~9 years Genetics Statistician
-  - ~8 years Medical Statistican
+  - ~8 years Medical Statistician
   - ~4 years Data Scientist at Telematics Company
 
 ::: {.notes}
@@ -451,7 +451,7 @@ summary_stats:
 - Every function, class and file is annotated in-line with `docstrings`.
 -  describe the parameters and return values
 - They make the code easier to read
-- The documentation is built and deplyed automatically to a website
+- The documentation is built and deployed automatically to a website
 - Easily searchable online
 
 :::
@@ -598,11 +598,10 @@ Processing images from /home/neil/work/git/hub/AFM-SPM/TopoStats, results are un
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ```
 
-## [Extensibility]{style="color:white"}
+## [Extensibility - Detangling]{style="color:white"}
 
 ::: {.columns}
 ::: {.column width="50%"}
-- Refactoring has made it _easier_ to extend
 - New functionality for disentangling molecules
 - [**Under or Over? Tracing Complex DNA Structures with High Resolution Atomic Force
 Microscopy**](https://www.biorxiv.org/content/10.1101/2024.06.28.601212v2) (under review at _Nat Comms_)
@@ -614,7 +613,7 @@ Microscopy**](https://www.biorxiv.org/content/10.1101/2024.06.28.601212v2) (unde
 :::
 ::::
 
-## [Extensibility (cont.)]{style="color:white"}
+## [Extensibility - Splinning]{style="color:white"}
 
 ::: {.columns}
 ::: {.column width="50%"}
@@ -646,7 +645,7 @@ Microscopy**](https://www.biorxiv.org/content/10.1101/2024.06.28.601212v2) (unde
 
 . . .
 
-:tada: [TUOS Open Research Prize 202s Team Winners](https://www.sheffield.ac.uk/openresearch/casestudies) :tada:
+:tada: [TUOS Open Research Prize 2023s Team Winners](https://www.sheffield.ac.uk/openresearch/casestudies) :tada:
 
 ## [Shared Skills and Knowledge]{style="color:white"}
 
