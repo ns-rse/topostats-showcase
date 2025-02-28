@@ -28,12 +28,12 @@ jobs:
           quarto add --no-prompt shafayetShafee/reveal-header
           quarto add --no-prompt r-wasm/quarto-drop
 
-      - name: Install Python and Dependencies
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-          cache: 'pip'
-      - run: pip install -r requirements.txt
+      # - name: Install Python and Dependencies
+      #   uses: actions/setup-python@v4
+      #   with:
+      #     python-version: '3.10'
+      #     cache: 'pip'
+      # - run: pip install -r requirements.txt
 
       - name: Install R
         uses: r-lib/actions/setup-r@v2
