@@ -2,99 +2,162 @@
   {
     "objectID": "index.html#scan-this",
     "href": "index.html#scan-this",
-    "title": "Template Revealjs Quarto site",
+    "title": "Research Software Engineering : TopoStat Case Study",
     "section": "Scan This",
-    "text": "Scan This\n\n\n    \nns-rse.github.io/quarto-revealjs-template"
+    "text": "Scan This\n\n\n    \nns-rse.github.io/topostats-showcase"
   },
   {
-    "objectID": "index.html#quarto-revealjs-slides",
-    "href": "index.html#quarto-revealjs-slides",
-    "title": "Template Revealjs Quarto site",
-    "section": "Quarto RevealJS Slides",
-    "text": "Quarto RevealJS Slides\nThis is a Quarto template for creating RevealJS slides.\nThe template can be used as a starting point for your own slides and includes a number of different layouts and examples of Markdown syntax, slide layout, links, embedding images and configuration options."
+    "objectID": "index.html#who-am-i",
+    "href": "index.html#who-am-i",
+    "title": "Research Software Engineering : TopoStat Case Study",
+    "section": "Who Am I?",
+    "text": "Who Am I?\n\nResearch Software Engineer\nEducation\n\nBSc Zoology & Genetics\nMSc Genetic Epidemiology\n\nBackground\n\n~9 years Genetics Statistician\n~8 years Medical Statistican\n~4 years Data Scientist at Telematics Company\n\n\n\nHi, my name is Neil Shephard and I’m a Research Software Engineer in the RSE Team based in the Department of Computer Science.\nBefore I get onto showcasing the TopoStats project I thought it would be useful to give some information on who I am and why I’m here talking to you today about Research Software Engineering and its benefits.\nI studied Zoology and Genetics at undergraduate and then undertook a Masters in Genetic Epidemiology which is the statistical side of mapping genetic polymorphisms that influence diseases with a heritable component. I then spent just under 10 years working as a Genetics Statistician at University of Manchester, Western Australia and then back in Sheffield before moving sideways into Clinical Trials where I worked as a Medical Statistician for about 8 years.\nThroughout this time I developed a passion for reproducible research, mainly motivated by finding using Word Processors and Spreadsheets really slow and tedious to work with. I was learnt some basic C and Fortran programming but have fortunately left those way behind me and taught myself the R statistical programming language and started using Git to version control my work.\nI fancied another career change and found a position as a Data Scientist at a Telematics Company which used data from black boxes and mobile phones to, purportedly, determine your risk for insurance companies. During this time I learnt more formal aspects of code development, learning how to use Git in a collaborative setting, the Python programming language and good software design principles including testing and continuous integration.\nSomewhat disillusioned with telematics I decided to return to academia and found a niche where I could combine my skills and knowledge about reproducible research and software development in the role of Research Software Engineer and I’ve been in this position for three years now."
   },
   {
-    "objectID": "index.html#formatting",
-    "href": "index.html#formatting",
-    "title": "Template Revealjs Quarto site",
-    "section": "Formatting",
-    "text": "Formatting\nQuarto slides are written in Markdown.\n\n\n\nMarkdown Syntax\nOutput\n\n\n\n\n*italics*, **bold**, ***bolditalics***\nitalics, bold, bold italics\n\n\nsuperscript^1^, subscript~2~\nsuperscript1, subscript2\n\n\n~~strikethrough~~\nstrikethrough\n\n\ncode\ncode\n\n\n[Quarto](https://quarto.org)\nQuarto\n\n\n\n\nSpeaker Notes can be added to each slide. Formatting can be used here too."
+    "objectID": "index.html#topostats",
+    "href": "index.html#topostats",
+    "title": "Research Software Engineering : TopoStat Case Study",
+    "section": "TopoStats",
+    "text": "TopoStats\n\n\n\nPython Package\nPyne Lab (School of Chemical, Materials and Biological Engineering)\nBatch processing Atomic Force Microscopy (AFM)\nImage DNA, RNA, Proteins, Perovskite, silicone, bacteria and more!\n\nTopoStats development\n\n\n\n\nAFM Scanning (Public Domain)\n\n\n\n\nWhen I started in my role as an RSE the first project I was assigned to work on was TopoStats. It is software written in the popular Python language developed by the Pyne Lab.\nAtomic Force Microscopy involves taking high resolution images of samples right down to the molecular level. Its kind of like a record player as you have a a cantilever tip that is very, very sensitive. A laser is bounced off the back of the tip and as the tip moves up and down over a surface the changes in height are detected and recorded.\nThis allows imaging of molecules such as DNA, RNA, proteins through to bacterial cells depending on the resolution. Its also applied to non-biological materials such as silicone wafers which are used in CPUs and perovskite, a material which can be used to produce solar cells."
   },
   {
-    "objectID": "index.html#columns-and-lists",
-    "href": "index.html#columns-and-lists",
-    "title": "Template Revealjs Quarto site",
-    "section": "Columns and Lists",
-    "text": "Columns and Lists\nSlides can have columns and you can create lists of different types.\n\n\nToDo (code)\n+ Learn Markdown\n+ Create Quarto Slides\n+ Publish on GitHub\n\nToDo (Rendered)\n\nLearn Markdown\nCreate Quarto Slides\nPublish on GitHub\n\n\n\nSlides can have columns and we can create unordered lists."
+    "objectID": "index.html#topostats-cont.",
+    "href": "index.html#topostats-cont.",
+    "title": "Research Software Engineering : TopoStat Case Study",
+    "section": "TopoStats (cont.)",
+    "text": "TopoStats (cont.)\n\n\n\n\n\nRaw data\n\n\n\n\n\n\nFlattened\n\n\n\n\n\n\nGrains detected\n\n\n\n\n\n\nPython toolkit for automated processing of atomic force microscopy (AFM) data.\nFree and open-source research software\nDeveloped by a small team at the University of Sheffield\n\n\n\nTakes raw noisy, non-flat images\nFlattens them\nDetects structures in the data\nCalculates statistics for the structures"
   },
   {
-    "objectID": "index.html#columns-and-lists-cont.",
-    "href": "index.html#columns-and-lists-cont.",
-    "title": "Template Revealjs Quarto site",
-    "section": "Columns and Lists (cont.)",
-    "text": "Columns and Lists (cont.)\n\n\nOrdered (code)\n1. A comes before\n2. B which is followed by\n3. C\n\nOrdered (Rendered)\n\nA comes before\nB which is followed by\nC\n\n\n\nOr ordered lists."
+    "objectID": "index.html#rse-topostats",
+    "href": "index.html#rse-topostats",
+    "title": "Research Software Engineering : TopoStat Case Study",
+    "section": "RSE & TopoStats",
+    "text": "RSE & TopoStats\n\n\n\n\n2020-04 RSE Code Clinic - Python 2.7 deprecation & Gwyddion\n2021-03 RSE Support - Containerised to Docker\n\n\n\n\n\n\nRaw Unprocessed AFM image\n\n\n\n\nAlice first contacted the RSE Team for assistance via the popular Code Clinics, these are half hour slots available every fortnight where you can come and chat with a member of RSE or IT services to get support with a programming related problem.\nAt the time a third party programme called Gwyddion was being used to do the processing. This was typically a Graphical User Interface (GUI) but it could be scripted using a Python package written in Python 2.7 which reached its end of life support in the previous year in 2019.\nIt was becoming problematic to install and maintain packages, and temporary work arounds were achieved.\nUnfortunately that wasn’t the end of the groups woes and in 2021 RSE support was provided to containerise the workflow using a system called Docker. This provides the ability to run code in very specific environments which in this case included the increasingly necrotic Python 2.7 which interfaced with Gwyddion which was doing all the hard work of processing images.\nContainerising the workflow sort of helped, but is substituted one set of woes for installing and maintaining outdated software with another set of problems, namely a convoluted workflow…"
   },
   {
-    "objectID": "index.html#tables",
-    "href": "index.html#tables",
-    "title": "Template Revealjs Quarto site",
-    "section": "Tables",
-    "text": "Tables\nYou can manually add tables.\n\n\n| Right | Left | Default | Center |\n|------:|:-----|---------|:------:|\n|   12  |  12  |    12   |    12  |\n|  123  |  123 |   123   |   123  |\n|    1  |    1 |     1   |     1  |\n\n\n\n\nRight\nLeft\nDefault\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1\n\n\n\n\n\nTables can be added, but there is a better way to include these programatically"
+    "objectID": "index.html#dependencies",
+    "href": "index.html#dependencies",
+    "title": "Research Software Engineering : TopoStat Case Study",
+    "section": "Dependencies",
+    "text": "Dependencies\n\n\nGwyddion\n\nAFM analysis software\nWritten in C++\nAlmost no code comments\nSlow to use (GUI only)\nNo automation\nNo standardisation\nNear impossible to contribute to / edit\n\n\nPyGwy\n\nPython binding to Gwyddion’s methods and functions.\nWritten in outdated Python 2.7\nWill not be updated\nLacking in documentation\nDifficult to contribute to"
   },
   {
-    "objectID": "index.html#equations",
-    "href": "index.html#equations",
-    "title": "Template Revealjs Quarto site",
-    "section": "Equations",
-    "text": "Equations\n\n\n\nMarkdown Syntax\nOutput\n\n\n\n\ninline math $E = mc^{2}$\ninline math \\(E = mc^{2}\\)\n\n\ndisplay math: $$E = mc^{2}$$\ndisplay math: \\[E = mc^{2}\\]\n\n\n\n\nYou can write equations if you need to."
+    "objectID": "index.html#march-2022-installation-procedure",
+    "href": "index.html#march-2022-installation-procedure",
+    "title": "Research Software Engineering : TopoStat Case Study",
+    "section": "March 2022: Installation procedure",
+    "text": "March 2022: Installation procedure\n\nInstall software\n\n\nUninstall all python, gwydidon, pygobject, pycairo, pygtk installations\nDelete all caches of the above softwares\nInstall Anaconda 32 bit ()\nInstall Python 2.7\nInstall pycharm (register for an account if necessary)\nInstall Gwyddion\nDownload a set of additional files from Google drive, hosted by the lab"
   },
   {
-    "objectID": "index.html#embed-images",
-    "href": "index.html#embed-images",
-    "title": "Template Revealjs Quarto site",
-    "section": "Embed Images",
-    "text": "Embed Images\nFigures can be embeded using a URL and resized.\n![Relaxing in the Julian Alps](https://live.staticflickr.com/65535/53144704609_c5e6fa8c77_k.jpg){width=700}\n\n\n\nRelaxing in the Julian Alps"
+    "objectID": "index.html#march-2022-installation-procedure-1",
+    "href": "index.html#march-2022-installation-procedure-1",
+    "title": "Research Software Engineering : TopoStat Case Study",
+    "section": "March 2022: Installation procedure",
+    "text": "March 2022: Installation procedure\n\nSet up the environment\n\n\nImport the environment from the gwyconda.yml file.\nFollow some images to determine which checkboxes to select.\nLocate your python environment\nInstall the PyGTK2 packages:\n\nInstall PyGTK\nInstall PyCairo\nInstall PyGObject\nManually add the paths for these into Anaconda\n\nChange the Gwyconda environment directory to the bin folder in Gwyddion"
   },
   {
-    "objectID": "index.html#embed-images-cont.",
-    "href": "index.html#embed-images-cont.",
-    "title": "Template Revealjs Quarto site",
-    "section": "Embed Images (cont.)",
-    "text": "Embed Images (cont.)\nYou can also include images locally.1 and make them hyperlinks.\n![[OSC Sheffield](https://osc-international.com/osc-sheffield)](img/OSC_Sheffield.png){width=300}\n\n\n\nOSC Sheffield\n\n\n\n\n\nMake sure to git add them otherwise they won’t publish"
+    "objectID": "index.html#march-2022-installation-procedure-2",
+    "href": "index.html#march-2022-installation-procedure-2",
+    "title": "Research Software Engineering : TopoStat Case Study",
+    "section": "March 2022: Installation procedure",
+    "text": "March 2022: Installation procedure\n\nSet up PyCharm\n\n\nOpen a new project and set the interpreter to Gwyconda\nCreate a python file\nAppend the path of the bin folder in Gwyddion\nIgnore all runtime warnings\n💥 Go back to the start because something went wrong in the installation 💥\n🔬 😿"
   },
   {
-    "objectID": "index.html#r-code",
-    "href": "index.html#r-code",
-    "title": "Template Revealjs Quarto site",
-    "section": "R code",
-    "text": "R code\n\n\nInclude R code and output with automatic referencing (see Figure 1)\n\nlibrary(ggplot2)\n\nggplot(airquality, aes(Temp, Ozone)) +\n  geom_point() +\n  geom_smooth(method = \"loess\")\n\n\n\n\n\n\n\n\n\n\nFigure 1: Temperature and ozone level.\n\n\n\n\n\n\n\nR code can be embeded and executed to produce tables and figures."
+    "objectID": "index.html#software-woes",
+    "href": "index.html#software-woes",
+    "title": "Research Software Engineering : TopoStat Case Study",
+    "section": "Software Woes",
+    "text": "Software Woes\n\n\nUsage\n\nVery hard to install\nOutdated dependencies\nHard-coded values\nBuggy!\n\n\nExtending\n\nContributing was a mess\nNo versioning, no releases\nNo review process\nNo tests\n\n\nHardly anyone used or knew about it\n\nThis meant that working on TopoStats was confusing, difficult and prone to errors and lost data / scripts.\nIn summary the software was hard to install because it relied on outdated dependencies. Changing parameters was difficult because they were all hard coded and there were various bugs that kept on biting people.\nContributing and extending the software to add functionality was also challenging, there was no versioning or releases, code wasn’t peer reviewed and there were no tests in place which are useful to make sure that when you do make changes to the code base you are not breaking other areas."
   },
   {
-    "objectID": "index.html#python-code",
-    "href": "index.html#python-code",
-    "title": "Template Revealjs Quarto site",
-    "section": "Python code",
-    "text": "Python code\n\nInclude Python code and output too\n#| label: fig-polar\n#| fig-cap: \"A line plot on a polar axis.\"\n#| warning: false\n#| eval: false\n#| echo: true\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n#| label: fig-polar2\n#| fig-cap: \"A line plot on a polar axis.\"\n#| warning: false\n#| eval: true\n#| echo: true\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n::::\n\nYou can include Python code too"
+    "objectID": "index.html#fair4rs-principles",
+    "href": "index.html#fair4rs-principles",
+    "title": "Research Software Engineering : TopoStat Case Study",
+    "section": "FAIR(4RS) Principles",
+    "text": "FAIR(4RS) Principles\n\n\nFindable\n\nEasy to find, with a unique identifier for each version ❌\nMetadata (summary info, eg License, Website, coding language) ❌\n\nAccessible\n\nRetrievable using a free and open protocol ✅\nMetadata are accessible, even when the software is no longer available ❌\n\nInteroperable\n\nSoftware uses data in a way that meets community standards ✅\nSoftware includes references to other objects ❌\n\nReusable\n\nMetadata (how to use) and License ❌\nDetailled provenance (information on its context, maintainers and dependencies) ❌"
   },
   {
-    "objectID": "index.html#general-code",
-    "href": "index.html#general-code",
-    "title": "Template Revealjs Quarto site",
-    "section": "General code",
-    "text": "General code\nThere are lots of options for showing, hiding, highlighting code blocks.\n#| eval: true\n#| echo: true\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+    "objectID": "index.html#topostats-2.0-2022-03",
+    "href": "index.html#topostats-2.0-2022-03",
+    "title": "Research Software Engineering : TopoStat Case Study",
+    "section": "✨ TopoStats 2.0 ✨ (2022-03)",
+    "text": "✨ TopoStats 2.0 ✨ (2022-03)\n\n\n\nRemove external dependencies\nRe-write all functionality in Python 3\n\nModular object-orientated design\nsmall functions/methods\nunit tests of functions/methods\nregression tests for overall processing\n\nConfiguration via plain-text YAML 👉\nConfigurations saved with output (reproducibility)\nProcesses images in parallel 🧑‍🤝‍🧑\n\n\nbase_dir: ./ # Directory in which to search for data files\noutput_dir: ./output # Directory to output results to\nlog_level: info # Verbosity of output. Options: warning, error, info, debug\ncores: 2 # Number of CPU cores to utilise for processing multiple files simultaneously.\nfile_ext: .spm # File extension of the data files.\nloading:\n  channel: Height # Channel to pull data from in the data files.\n  extract: raw # Array to extract when loading .topostats files.\nfilter:\n  run: true # Options : true, false\n  row_alignment_quantile: 0.5 # lower values may improve flattening of larger features\n  threshold_method: std_dev # Options : otsu, std_dev, absolute\n  otsu_threshold_multiplier: 1.0\n  threshold_std_dev:\n    below: 10.0 # Threshold for data below the image background\n    above: 1.0 # Threshold for data above the image background\n  threshold_absolute:\n    below: -1.0 # Threshold for data below the image background\n    above: 1.0 # Threshold for data above the image background\n  gaussian_size: 1.0121397464510862 # Gaussian blur intensity in px\n  gaussian_mode: nearest # Mode for Gaussian blurring. Options : nearest, reflect, constant, mirror, wrap\n  # Scar remvoal parameters. Be careful with editing these as making the algorithm too sensitive may\n  # result in ruining legitimate data.\n  remove_scars:\n    run: false\n    removal_iterations: 2 # Number of times to run scar removal.\n    threshold_low: 0.250 # lower values make scar removal more sensitive\n    threshold_high: 0.666 # lower values make scar removal more sensitive\n    max_scar_width: 4 # Maximum thickness of scars in pixels.\n    min_scar_length: 16 # Minimum length of scars in pixels.\ngrains:\n  run: true # Options : true, false\n  # Thresholding by height\n  threshold_method: std_dev # Options : std_dev, otsu, absolute, unet\n  otsu_threshold_multiplier: 1.0\n  threshold_std_dev:\n    below: 10.0 # Threshold for grains below the image background\n    above: 1.0 # Threshold for grains above the image background\n  threshold_absolute:\n    below: -1.0 # Threshold for grains below the image background\n    above: 1.0 # Threshold for grains above the image background\n  direction: above # Options: above, below, both (defines whether to look for grains above or below thresholds or both)\n  # Thresholding by area\n  smallest_grain_size_nm2: 50 # Size in nm^2 of tiny grains/blobs (noise) to remove, must be &gt; 0.0\n  absolute_area_threshold:\n    above: [300, 3000] # above surface [Low, High] in nm^2 (also takes null)\n    below: [null, null] # below surface [Low, High] in nm^2 (also takes null)\n  remove_edge_intersecting_grains: true # Whether or not to remove grains that touch the image border\n  unet_config:\n    model_path: null # Path to a trained U-Net model\n    grain_crop_padding: 2 # Padding to apply to the grain crop bounding box\n    upper_norm_bound: 5.0 # Upper bound for normalisation of input data. This should be slightly higher than the maximum desired / expected height of grains.\n    lower_norm_bound: -1.0 # Lower bound for normalisation of input data. This should be slightly lower than the minimum desired / expected height of the background.\n  vetting:\n    class_conversion_size_thresholds: null # Class conversion size thresholds, list of tuples of 3 integers and 2 integers, ie list[tuple[tuple[int, int, int], tuple[int, int]]] eg [[[1, 2, 3], [5, 10]]] for each region of class 1 to convert to 2 if smaller than 5 nm^2 and to class 3 if larger than 10 nm^2.\n    class_region_number_thresholds: null # Class region number thresholds, list of lists, ie [[class, low, high],] eg [[1, 2, 4], [2, 1, 1]] for class 1 to have 2-4 regions and class 2 to have 1 region. Can use None to not set an upper/lower bound.\n    class_size_thresholds: null # Class size thresholds (nm^2), list of tuples of 3 integers, ie [[class, low, high],] eg [[1, 100, 1000], [2, 1000, None]] for class 1 to have 100-1000 nm^2 and class 2 to have 1000-any nm^2. Can use None to not set an upper/lower bound.\n    nearby_conversion_classes_to_convert: null # Class conversion for nearby regions, list of tuples of two-integer tuples, eg [[[1, 2], [3, 4]]] to convert class 1 to 2 and 3 to 4 for small touching regions\n    class_touching_threshold: 5 # Number of dilation steps to use for detecting touching regions\n    keep_largest_labelled_regions_classes: null # Classes to keep the only largest regions for, list of integers eg [1, 2] to keep only the largest regions of class 1 and 2\n    class_connection_point_thresholds: null # Class connection point thresholds, [[[class_1, class_2], [min, max]]] eg [[[1, 2], [1, 1]]] for class 1 to have 1 connection point with class 2\ngrainstats:\n  run: true # Options : true, false\n  edge_detection_method: binary_erosion # Options: canny, binary erosion. Do not change this unless you are sure of what this will do.\n  cropped_size: -1 # Length (in nm) of square cropped images (can take -1 for grain-sized box)\n  extract_height_profile: true # Extract height profiles along maximum feret of molecules\ndisordered_tracing:\n  run: true # Options : true, false\n  min_skeleton_size: 10 # Minimum number of pixels in a skeleton for it to be retained.\n  pad_width: 1 # Pixels to pad grains by when tracing\n  mask_smoothing_params:\n    gaussian_sigma: 2 # Gaussian smoothing parameter 'sigma' in pixels.\n    dilation_iterations: 2 # Number of dilation iterations to use for grain smoothing.\n    holearea_min_max: [0, null] # Range (min, max) of a hole area in nm to refill in the smoothed masks.\n  skeletonisation_params:\n    method: topostats # Options : zhang | lee | thin | topostats\n    height_bias: 0.6 # Percentage of lowest pixels to remove each skeletonisation iteration. 1 equates to zhang.\n  pruning_params:\n    method: topostats # Method to clean branches of the skeleton. Options : topostats\n    max_length: 10.0 # Maximum length in nm to remove a branch containing an endpoint.\n    height_threshold: # The height to remove branches below.\n    method_values: mid # The method to obtain a branch's height for pruning. Options : min | median | mid.\n    method_outlier: mean_abs # The method to prune branches based on height. Options : abs | mean_abs | iqr.\nnodestats:\n  run: true # Options : true, false\n  node_joining_length: 7.0 # The distance in nanometres over which to join nearby crossing points.\n  node_extend_dist: 14.0 # The distance in nanometres over which to join nearby odd-branched nodes.\n  branch_pairing_length: 20.0 # The length in nanometres from the crossing point to pair and trace, obtaining FWHM's.\n  pair_odd_branches: false # Whether to try and pair odd-branched nodes. Options: true and false.\n  pad_width: 1 # Pixels to pad grains by when tracing (should be the same as disordered_tracing).\nordered_tracing:\n  run: true\n  ordering_method: nodestats # The method of ordering the disordered traces.\n  pad_width: 1 # Pixels to pad grains by when tracing (should be the same as disordered_tracing).\nsplining:\n  run: true # Options : true, false\n  method: \"rolling_window\" # Options : \"spline\", \"rolling_window\"\n  rolling_window_size: 20.0e-9 # size in nm of the rolling window.\n  spline_step_size: 7.0e-9 # The sampling rate of the spline in metres.\n  spline_linear_smoothing: 5.0 # The amount of smoothing to apply to linear features.\n  spline_circular_smoothing: 5.0 # The amount of smoothing to apply to circular features.\n  spline_degree: 3 # The polynomial degree of the spline.\ncurvature:\n  run: true # Options : true, false\n  colourmap_normalisation_bounds: [-0.5, 0.5] # Radians per nm to normalise the colourmap to.\nplotting:\n  run: true # Options : true, false\n  style: topostats.mplstyle # Options : topostats.mplstyle or path to a matplotlibrc params file\n  savefig_format: null # Options : null, png, svg or pdf. tif is also available although no metadata will be saved. (defaults to png) See https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html\n  savefig_dpi: 100 # Options : null (defaults to the value in topostats/plotting_dictionary.yaml), see https://afm-spm.github.io/TopoStats/main/configuration.html#further-customisation and https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html\n  pixel_interpolation: null # Options : https://matplotlib.org/stable/gallery/images_contours_and_fields/interpolation_methods.html\n  image_set: core # Options : all, core\n  zrange: [null, null] # low and high height range for core images (can take [null, null]). low &lt;= high\n  colorbar: true # Options : true, false\n  axes: true # Options : true, false (due to off being a bool when parsed)\n  num_ticks: [null, null] # Number of ticks to have along the x and y axes. Options : null (auto) or integer &gt; 1\n  cmap: null # Colormap/colourmap to use (default is 'nanoscope' which is used if null, other options are 'afmhot', 'viridis' etc.)\n  mask_cmap: blue_purple_green # Options : blu, jet_r and any in matplotlib\n  histogram_log_axis: false # Options : true, false\nsummary_stats:\n  run: true # Whether to make summary plots for output data\n  config: null"
   },
   {
-    "objectID": "index.html#the-documentation-is-good",
-    "href": "index.html#the-documentation-is-good",
-    "title": "Template Revealjs Quarto site",
-    "section": "The Documentation is Good",
-    "text": "The Documentation is Good\nThe official documentation is really good.\n\nGet Started\nMarkdown Basics\nGuide with many sections on Presentations Website, Books and more."
+    "objectID": "index.html#documentation",
+    "href": "index.html#documentation",
+    "title": "Research Software Engineering : TopoStat Case Study",
+    "section": "Documentation",
+    "text": "Documentation\n\n\n\n\nEvery function, class and file is annotated in-line with docstrings.\ndescribe the parameters and return values\nThey make the code easier to read\nThe documentation is built and deplyed automatically to a website\nEasily searchable online\n\n\n\n\n\n\nTopoStats documentation"
   },
   {
-    "objectID": "index.html#extensions",
-    "href": "index.html#extensions",
-    "title": "Template Revealjs Quarto site",
-    "section": "Extensions",
-    "text": "Extensions\n\n\nExtensions for themes and other functionality (press c whilst viewing these slides 😉 ).\n\nShortcode/Filter\nJournal Articles\nCustom Formats\nRevealJS\nawesome-quarto - Quarto tools & examples\n\n\nThis Template…\n\n\n    \n\n\n\n\n\n\n\n\n \n\n\nQuarto RevealJS Template"
+    "objectID": "index.html#versioning",
+    "href": "index.html#versioning",
+    "title": "Research Software Engineering : TopoStat Case Study",
+    "section": "Versioning",
+    "text": "Versioning\n\n\n\n\nGit version control of all code\nVersioned releases made automatically from GitHub to PyPI\nDocumentation is versioned too\nUsers have stable software whilst new features are developed\nOld versions archived and available\nDOI via ORDA"
+  },
+  {
+    "objectID": "index.html#linting-and-formatting",
+    "href": "index.html#linting-and-formatting",
+    "title": "Research Software Engineering : TopoStat Case Study",
+    "section": "Linting and Formatting",
+    "text": "Linting and Formatting\nMake code universally understandable :::{.incremental}\n\nPylint, ruff, black\nCode checked automatically on Git commit via pre-commit\nPull-requests run checks via Continuous Integration :::"
+  },
+  {
+    "objectID": "index.html#code-review",
+    "href": "index.html#code-review",
+    "title": "Research Software Engineering : TopoStat Case Study",
+    "section": "Code review",
+    "text": "Code review\n\nOpen process\nContribution using GitHub’s Pull Requests\nRequires approval from at least one other person\n\nPrevents bad code from being added to the project\nEnsures against single-point of failure"
+  },
+  {
+    "objectID": "index.html#topostats-2.0-installation-and-usage",
+    "href": "index.html#topostats-2.0-installation-and-usage",
+    "title": "Research Software Engineering : TopoStat Case Study",
+    "section": "TopoStats 2.0 Installation and Usage",
+    "text": "TopoStats 2.0 Installation and Usage\nInstallation\nconda create -n topostats-311 python=3.11\nconda activate topostats-311\npip install topostats\nUsage\ntopostats process\n\n[Thu, 27 Feb 2025 14:27:42] [INFO    ] [topostats] Processing : minicircle\n[Thu, 27 Feb 2025 14:27:42] [INFO    ] [topostats] [minicircle] : *** Filtering ***\n[Thu, 27 Feb 2025 14:27:45] [INFO    ] [topostats] [minicircle] : Plotting Filtering Images\n[Thu, 27 Feb 2025 14:27:46] [INFO    ] [topostats] [minicircle] : Filters stage completed successfully.\n[Thu, 27 Feb 2025 14:27:46] [INFO    ] [topostats] [minicircle] : *** Grain Finding ***\n[Thu, 27 Feb 2025 14:27:47] [INFO    ] [topostats] [minicircle] : Grains found for direction above : 21\n[Thu, 27 Feb 2025 14:27:47] [INFO    ] [topostats] [minicircle] : Plotting Grain Finding Images\n[Thu, 27 Feb 2025 14:27:47] [INFO    ] [topostats] [minicircle] : Grain Finding stage completed successfully.\n[Thu, 27 Feb 2025 14:27:47] [INFO    ] [topostats] [minicircle] : *** Grain Statistics ***\n[Thu, 27 Feb 2025 14:27:48] [INFO    ] [topostats] [minicircle] : Calculated grainstats for 21 grains.\n[Thu, 27 Feb 2025 14:27:48] [INFO    ] [topostats] [minicircle] : Grainstats stage completed successfully.\n[Thu, 27 Feb 2025 14:27:48] [INFO    ] [topostats] [minicircle] : *** Disordered Tracing ***\n[Thu, 27 Feb 2025 14:27:49] [INFO    ] [topostats] [minicircle] : Calculating Disordered Tracing statistics for 21 grains...\n[Thu, 27 Feb 2025 14:27:59] [INFO    ] [topostats] [minicircle] : Disordered Tracing stage completed successfully.\n[Thu, 27 Feb 2025 14:27:59] [INFO    ] [topostats] [minicircle] : *** Nodestats ***\n[Thu, 27 Feb 2025 14:27:59] [INFO    ] [topostats] [minicircle] : Calculating NodeStats statistics for 21 grains...\n[Thu, 27 Feb 2025 14:28:00] [INFO    ] [topostats] [minicircle] : NodeStats stage completed successfully.\n[Thu, 27 Feb 2025 14:28:00] [INFO    ] [topostats] [minicircle] : *** Ordered Tracing ***\n[Thu, 27 Feb 2025 14:28:00] [INFO    ] [topostats] [minicircle] : Calculating Ordered Traces and statistics for 21 grains...\n[Thu, 27 Feb 2025 14:28:03] [INFO    ] [topostats] [minicircle] : Ordered Tracing stage completed successfully.\n[Thu, 27 Feb 2025 14:28:03] [INFO    ] [topostats] [minicircle] : *** Splining ***\n[Thu, 27 Feb 2025 14:28:03] [INFO    ] [topostats] [minicircle] : Calculating Splining statistics for 25 molecules...\n[Thu, 27 Feb 2025 14:28:04] [INFO    ] [topostats] [minicircle] : Splining stage completed successfully.\n[Thu, 27 Feb 2025 14:28:04] [INFO    ] [topostats] [minicircle] : *** Curvature Stats ***\n[Thu, 27 Feb 2025 14:28:05] [INFO    ] [topostats] [minicircle] : *** Image Statistics ***\n[Thu, 27 Feb 2025 14:28:05] [INFO    ] [topostats] [minicircle] : Saving image to .topostats file\nProcessing images from /home/neil/work/git/hub/AFM-SPM/TopoStats, results are under output:  50%|███████████████▌                                                                                                                                                     | 1/2 [00:23&lt;00:23, 23.33s/it][Thu, 27 Feb 2025 14:28:06] [INFO    ] [topostats] [minicircle] Processing completed.\nProcessing images from /home/neil/work/git/hub/AFM-SPM/TopoStats, results are under output:  50%|███████████████▌                                                                                                                                                     | 1/2 [00:23&lt;00:23, 23.33s/it]\n[Thu, 27 Feb 2025 14:28:06] [INFO    ] [topostats] Saving image stats to : output/image_stats.csv.\n[Thu, 27 Feb 2025 14:28:06] [INFO    ] [topostats] Saving all height profiles to output/height_profiles.json\n[Thu, 27 Feb 2025 14:28:06] [INFO    ] [topostats] The YAML summarisation config is valid.\n[Thu, 27 Feb 2025 14:28:06] [INFO    ] [topostats] [plotting] Default variable to labels mapping loaded.\n[Thu, 27 Feb 2025 14:28:06] [INFO    ] [topostats] Summary plots and statistics will be saved to : output/summary_distributions\n[Thu, 27 Feb 2025 14:28:08] [INFO    ] [topostats] Folder-wise statistics saved to: output/tmp/filter/folder_grain_stats.csv\n[Thu, 27 Feb 2025 14:28:08] [INFO    ] [topostats] Folder-wise statistics saved to: output/tmp/filter/folder_disordered_trace_stats.csv\n[Thu, 27 Feb 2025 14:28:08] [INFO    ] [topostats] Folder-wise statistics saved to: output/tmp/filter/folder_mol_stats.csv\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n\n  _______      _____      __ __       _____     ______    _______      _____      _______    ______\n/\\_______)\\   ) ___ (    /_/\\__/\\    ) ___ (   / ____/\\ /\\_______)\\   /\\___/\\   /\\_______)\\ / ____/\\\n\\(___  __\\/  / /\\_/\\ \\   ) ) ) ) )  / /\\_/\\ \\  ) ) __\\/ \\(___  __\\/  / / _ \\ \\  \\(___  __\\/ ) ) __\\/\n  / / /     / /_/ (_\\ \\ /_/ /_/ /  / /_/ (_\\ \\  \\ \\ \\     / / /      \\ \\(_)/ /    / / /      \\ \\ \\\n ( ( (      \\ \\ )_/ / / \\ \\ \\_\\/   \\ \\ )_/ / /  _\\ \\ \\   ( ( (       / / _ \\ \\   ( ( (       _\\ \\ \\\n  \\ \\ \\      \\ \\/_\\/ /   )_) )      \\ \\/_\\/ /  )____) )   \\ \\ \\     ( (_( )_) )   \\ \\ \\     )____) )\n  /_/_/       )_____(    \\_\\/        )_____(   \\____\\/    /_/_/      \\/_/ \\_\\/    /_/_/     \\____\\/\n\n\n[Thu, 27 Feb 2025 14:28:08] [INFO    ] [topostats]\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ COMPLETE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n  TopoStats Version           : 2.3.2.dev27+gbe8d296d1\n  Base Directory              : /home/neil/work/git/hub/AFM-SPM/TopoStats\n  File Extension              : .spm\n  Files Found                 : 2\n  Successfully Processed^1    : 1 (50.0%)\n  All statistics              : output/all_statistics.csv\n  Distribution Plots          : output/summary_distributions\n\n  Configuration               : output/config.yaml\n\n  Email                       : topostats@sheffield.ac.uk\n  Documentation               : https://afm-spm.github.io/topostats/\n  Source Code                 : https://github.com/AFM-SPM/TopoStats/\n  Bug Reports/Feature Request : https://github.com/AFM-SPM/TopoStats/issues/new/choose\n  Citation File Format        : https://github.com/AFM-SPM/TopoStats/blob/main/CITATION.cff\n\n  ^1 Successful processing of an image is detection of grains and calculation of at least\n     grain statistics. If these have been disabled the percentage will be 0.\n\n  If you encounter bugs/issues or have feature requests please report them at the above URL\n  or email us.\n\n  If you have found TopoStats useful please consider citing it. A Citation File Format is\n  linked above and available from the Source Code page.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+  },
+  {
+    "objectID": "index.html#extensibility",
+    "href": "index.html#extensibility",
+    "title": "Research Software Engineering : TopoStat Case Study",
+    "section": "Extensibility",
+    "text": "Extensibility\n\n\n\nRefactoring has made it easier to extend\nNew functionality for disentangling molecules\nUnder or Over? Tracing Complex DNA Structures with High Resolution Atomic Force Microscopy (under review at Nat Comms)"
+  },
+  {
+    "objectID": "index.html#extensibility-cont.",
+    "href": "index.html#extensibility-cont.",
+    "title": "Research Software Engineering : TopoStat Case Study",
+    "section": "Extensibility (cont.)",
+    "text": "Extensibility (cont.)\n\n\n\n\nSplining of traces"
+  },
+  {
+    "objectID": "index.html#three-years-on",
+    "href": "index.html#three-years-on",
+    "title": "Research Software Engineering : TopoStat Case Study",
+    "section": "Three years on",
+    "text": "Three years on\n\n\nFindable\n\nEasy to find, with a unique identifier for each version ✅\nMetadata (summary info, eg License, Website, coding language) ✅\n\nAccessible\n\nRetrievable using a free and open protocol ✅\nMetadata are accessible, even when the software is no longer available ✅\n\nInteroperable\n\nSoftware uses data in a way that meets community standards ✅\nSoftware includes references to other objects ✅\n\nReusable\n\nMetadata (how to use) and License ✅\nDetailled provenance (information on its context, maintainers and dependencies) ✅\n\n\n\n\n🎉 TUOS Open Research Prize 202s Team Winners 🎉"
+  },
+  {
+    "objectID": "index.html#shared-skills-and-knowledge",
+    "href": "index.html#shared-skills-and-knowledge",
+    "title": "Research Software Engineering : TopoStat Case Study",
+    "section": "Shared Skills and Knowledge",
+    "text": "Shared Skills and Knowledge\n\n\nNot an individual endeavour!\nResearchers and PhD students wrote a lot of code\nTeam adopted good working practices\nImportant training and transferable skills"
+  },
+  {
+    "objectID": "index.html#benefits-and-drawbacks-of-open-research-software",
+    "href": "index.html#benefits-and-drawbacks-of-open-research-software",
+    "title": "Research Software Engineering : TopoStat Case Study",
+    "section": "Benefits and drawbacks of Open Research / Software",
+    "text": "Benefits and drawbacks of Open Research / Software\n\n\nBenefits\nOpenness Leads to… - Collaboration - Sharing data, methods, code - Faster and efficient progress (…most of the time!) - Fosters community - Inclusivity - Data and software are free to access - Greater impact - More accessible to a wider audience - Transparency and constructive criticism - Enables and even encourages people to critique methods that are used. - Reproducablility - Others can more easily replicate research\n\nDrawbacks\n\nChaos in open software development\n\nAs the community grows, so do the feature requests and issues!\nCompeting demands of users, collaborators, work\nSporadic nature of working with people with varying availability\nRelying on open source software can be risky, there are innumerable abandoned packages"
+  },
+  {
+    "objectID": "index.html#acknowledgements",
+    "href": "index.html#acknowledgements",
+    "title": "Research Software Engineering : TopoStat Case Study",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nI would like to thank everyone who has worked on and helped with TopoStats. This was a massive group effort.\n\n\n\nAlice Pyne\nBillie Ward\nBob Turner\nEddie Rollins\nJean Du\nJoe Beton\n\n\n\nLaura Wiggins\nLibby Holmes\nMax Gamill\nNeil Shephard\nRob Moorehead\nSylvia Whittle\nTobi Firth\n\n\n\n\n\n\n\n\n\n \n\n\nRSE TopoStats Case Study"
   }
 ]
