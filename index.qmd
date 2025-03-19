@@ -205,6 +205,9 @@ PyGwy
 :::
 ::::
 
+::: {.notes}
+Read through these bullet points
+:::
 
 ## [March 2022: Installation procedure]{style="color:white"}
 :::{.fragment .fade-in}
@@ -220,7 +223,11 @@ PyGwy
 :::
 :::
 
-## [March 2022: Installation procedure]{style="color:white"}
+::: {.notes}
+Read through these bullet points
+:::
+
+## [March 2022: Installation procedure (_cont._)]{style="color:white"}
 :::{.fragment .fade-in}
 ### Set up the environment
 :::{.incremental}
@@ -236,7 +243,11 @@ PyGwy
 :::
 :::
 
-## [March 2022: Installation procedure]{style="color:white"}
+::: {.notes}
+Read through these bullet points
+:::
+
+## [March 2022: Installation procedure (_cont. cont._)]{style="color:white"}
 :::{.fragment .fade-in}
 ### Set up PyCharm
 :::{.incremental}
@@ -247,6 +258,12 @@ PyGwy
 - :boom: [Go back to the start because something went wrong in the installation]{style="color:red"} :boom:
 - :microscope: :crying_cat_face:
 :::
+:::
+
+::: {.notes}
+Read through these bullet points
+
+And it lead to sad Atmoic Force Microscopists!
 :::
 
 
@@ -298,9 +315,32 @@ to the code base you are not breaking other areas.
 - **R**eusable
     - Metadata (how to use) and License ❌
     - Detailled provenance (information on its context, maintainers and dependencies) ❌
+- :microscope: :crying_cat_face: + :computer: :crying_cat_face:
 :::
 
-## [✨ TopoStats 2.0 ✨ (2022-03)]{style="color:white"}
+[FAIR Principles for Research Software (FAIR4RS Principles) doi:10.15497/RDA00068](https://doi.org/10.15497/RDA00068)
+
+::: {.notes}
+The FAIR principles which were originally developed for how research data should be handled have been adapted for
+Research Software and stipulate that the code should be...
+
+Findable, with a unique identifier for each version and metadata that summarises the code, its license, language and so
+forth.
+
+Accessible, that its easy to retrieve using an open protocol and that thte metadata remain accessible even when the
+software is no longer available.
+
+Interoperable where it uses data in a way that meets community standards, we got another tick there, but it didn't
+reference other objects.
+
+Reusable with clear metadata and license on how to reuse the software and details on the maintinaers and dependencies.
+
+This lead to not only sad micrscopists but also sad Research Software Engineers
+
+What could we do about this?
+:::
+
+## [✨ TopoStats 2.0 ✨]{style="color:white"}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -443,13 +483,27 @@ summary_stats:
 :::
 ::::
 
+::: {.notes}
+We decided to rewrite TopoStats from the ground up, removing the external dependency on outdated Python 2.7 and
+re-implement all the steps in Python 3.
+
+This mean we could take a modular, object-orientated design writing small functions and methods which are easy to write
+unit-tests to ensure they function as expected. As the software grew we also included regerssion tests to ensure the
+components worked together and the overall functionality was maintained.
+
+Instead of having hard-coded configuration options these were all extracted out into a plain-text YAML configuration
+file and this configuration file was save along with output so that the work was reproducible in the future.
+
+We also introduced parallel processing which meant that batches of images could be processed much quicker.
+:::
+
 ## [Documentation]{style="color:white"}
 
 ::: {.columns}
 ::: {.column width="50%"}
 :::{.incremental}
 - Every function, class and file is annotated in-line with `docstrings`.
--  describe the parameters and return values
+- Describe the parameters and return values
 - They make the code easier to read
 - The documentation is built and deployed automatically to a website
 - Easily searchable online
@@ -457,10 +511,20 @@ summary_stats:
 :::
 :::
 ::: {.column width="50%"}
-![[TopoStats documentation](https://afm-spm.github.io/TopoStats)](img/topostats_docs.png)
+![[https://afm-spm.github.io/TopoStats](https://afm-spm.github.io/TopoStats)](img/topostats_docs.png)
 :::
 ::::
 
+::: {.notes}
+At the same time we documented the functions classes and files with `docstrings` which describe the parmaters that go
+into teach function and what the function returns, this is what is known as the API, Application Programming Interface.
+
+This makes it easier for others, including your future self, to read and understand the code.
+
+We added documentation that described how to install and use the software and what the different steps of processing are
+and it included automatically the API documentation from the code giving a reference library that is easy online and
+easy to search.
+:::
 ## [Versioning]{style="color:white"}
 
 ::: {.columns}
@@ -481,18 +545,65 @@ summary_stats:
 :::
 ::::
 
+::: {.notes}
+All of the code was version controlled using the Git Version Control Software.
+
+This mean we could make versioned releases not just to GitHub but also the Python Package Index and we could version our
+documentation for each releas so that users have stable software to use whils new features are developed.
+
+Old versions are archived and available via a unique Digital Object Identifier (DOI) which points to the software on the
+Universities Figshare instance ORDA
+:::
+
 ## [Linting and Formatting]{style="color:white"}
 
 Make code universally understandable
 :::{.incremental}
 
-- [Pylint](), [ruff](), [black]()
+- [Pylint](https://www.pylint.org/), [ruff](https://docs.astral.sh/ruff/), [black](https://github.com/psf/black)
 - Code checked automatically on Git commit via [pre-commit](https://pre-commit.com)
 - Pull-requests run checks via Continuous Integration
 :::
 
 ![Pylint errors](img/pylint.png)
 ![Pre-commit in CI](img/pre-commit-ci.png)
+
+::: {.notes}
+When writing the code we apply linting and formatting standards which make it easier to understand as the layout and
+style conforms to a (mostly) universally accepted standard. This is important not just for new people reading the code
+but also your future self when returning to code you've not touched in three months or in my case sometimes just a week!
+
+These are applied automatically when making commits to the versioning software Git and also run in Continuous
+Integration when merging new features.
+:::
+
+## [Tests]{style="color:white"}
+
+::: {.columns}
+::: {.column width="50%"}
+:::{.incremental}
+- Extensive test-suite
+- Unit tests for each function
+- Integration tests
+- Stability!
+:::
+:::
+::: {.column width="50%"}
+![Tests passing in Continuous Integration](img/ci_tests.png)
+:::
+::::
+
+::: {.notes}
+As we re-wrote the code base we introduced a comprehensive test suite with unit-tests that ensure that each small
+function behaves and does what it is supposed to.
+
+As the software grew we introduced integration tests to ensure that the components within the package work together as
+they were meant to.
+
+This mean the software was more stable, when changes were made to one area of the code base it ensured that it didn't
+break things elsewhere and it gives us greater confidence that the code works and the ability to undertake refactoring
+to re-write sections of code if the need arises.
+:::
 
 ## [Code review]{style="color:white"}
 
@@ -645,15 +756,29 @@ Microscopy**](https://www.biorxiv.org/content/10.1101/2024.06.28.601212v2) (unde
 
 . . .
 
-:tada: [TUOS Open Research Prize 2023s Team Winners](https://www.sheffield.ac.uk/openresearch/casestudies) :tada:
+:tada: [TUOS Open Research Prize 2023 Team Winners](https://www.sheffield.ac.uk/openresearch/casestudies) :tada:
 
 ## [Shared Skills and Knowledge]{style="color:white"}
 
 :::{.incremental}
 - _Not_ an individual endeavour!
 - Researchers and PhD students wrote a _lot_ of code
+- Code review ensure many know and understand how it works
+  - No single point of failure
 - _Team_ adopted good working practices
 - Important training and transferable skills
+:::
+
+::: {.notes}
+This was far from an individual endevaour, I wasn't parachuted in and made lots of changes to the code implementing
+everything myself. Researchers and PhD students wrote a lot of code.
+
+By having peer review in place via code reviews it ensure that multiple people understand how it all works, there is no
+single point of failure.
+
+Importantly the whole team adopted good working practices and this provided important training in tranferable skills
+that people could take with them as they move into the wider area of work. Just recently an ex-PhD student secured a job
+with the Research Software Engineering team at the University of Birmingham.
 :::
 
 ## Benefits and drawbacks of Open Research / Software
@@ -662,6 +787,7 @@ Microscopy**](https://www.biorxiv.org/content/10.1101/2024.06.28.601212v2) (unde
 ::: {.column width="50%"}
 ### Benefits
 Openness Leads to...
+
 - Collaboration
   - Sharing data, methods, code
   - Faster and efficient progress (...most of the time!)
@@ -672,7 +798,7 @@ Openness Leads to...
   - More accessible to a wider audience
 - Transparency and constructive criticism
   - Enables and even encourages people to critique methods that are used.
-- Reproducablility
+- Reproduciblility
   - Others can more easily replicate research
 :::
 ::: {.column width="50%"}
@@ -681,9 +807,22 @@ Openness Leads to...
   - As the community grows, so do the feature requests and issues!
   - Competing demands of users, collaborators, work
   - Sporadic nature of working with people with varying availability
-  - Relying on open source software can be risky, there are innumerable abandoned packages
 :::
 ::::
+
+::: {.notes}
+There are pros and cons to changing the way you work with software, collaboration with the RSE team has led to a better
+understanding within the team of the methods and code, ir runs faster and is a more efficient process of developing
+software (most of the time!).
+
+The software is more inclusive and its free to access, as a consequence it is reaching a wider audience and we are
+seeing researchers from other laboratries trying it out and finding that its better than the existing tools they use,
+they are reporting issues and making feature requests.
+
+The open software development enables people to make constructive criticism of the software implementation and our
+approach to development.
+
+:::
 
 ## Acknowledgements
 
